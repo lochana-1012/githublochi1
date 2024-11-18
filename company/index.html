@@ -38,7 +38,139 @@
     
         <li style="list-style-type: lower-roman;">Science</li>  
     </ul>   
+<br><hr>
+<!-- using table tag -->
+ <h3>Table Tag</h3>
+ 
+        <table border="1"  cellpadding="5" cellspacing="9" style='border-collapse: collapse;' >
+            <tr>
+                <th>NAME</th>
+                <th>REG.NO</th>
+                <th>DEPARTMENT</th>
+            </tr>
+            <tr>
+                <td>Lochana</td>
+                <td>713323SB025</td>
+                <td>IOT</td>
+            </tr>
+            <tr>
+                <td>Sandhiya</td>
+                <td>713323SB043</td>
+                <td>AI</td>
+            </tr>
+            <tr>
+                <td>Aakash</td>
+                <td>713323SB001</td>
+                <td>CSE</td>
+            </tr>
+        </table>
+        <br><hr>
+
+    <!-- using table colspan-->
+     <h3>COLSPAN</h3>
+     
+         <table border="1">
+            <tr>
+                <th colspan="2">NAME</th>
+                <th>AGE</th>
+                <th colspan="4">MARKS</th>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td>Last  Name</td>
+                <td></td>
+                <td>Maths</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>Lochana</td>
+                <td>B</td>
+                <td>19</td>
+                <td>85</td>
+                <td>95</td>
+                <td>79</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <td>Aakash</td>
+                <td>H</td>
+                <td>20</td>
+                <td>75</td>
+                <td>85</td>
+                <td>99</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>Nihasri</td>
+                <td>BA</td>
+                <td>15</td>
+                <td>85</td>
+                <td>100</td>
+                <td>78</td>
+                <td>66</td>
+            </tr>
+        </table>
+<br><hr>
+
+<!-- using table rowspan -->
+    <h3>ROWSPAN</h3>
+    
+        <table border="1">
+            <tr>
+                <th rowspan="2">NAME</th>
+                <th>First Name</th>
+                <td>Lochana</td>
+                <td>Krishna</td>
+                <td>Ammu</td>
+                
+
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td>Babu</td>
+                <td>Karthick</td>
+                <td>Raja</td>
+                
+            </tr>
+            <tr>
+                <th>AGE</th>
+                <td></td>
+                <td>19</td>
+                <td>42</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <th>Qaulification</th>
+                <th>Passed out</th>
+                <td>UG 2022</td>
+                <td>12 2010</td>
+                <td>currently 12 2024</td>
+            </tr>
+        </table>
+<br>
+<hr>
+    <h3>DETAILS FORM</h3>
+    
+    <form><div>
+        <label> First Name<input type="text" placeholder="JOHN" required></label><br>
+        <label> Last Name<input type="text" placeholder="DEWY" required></label> 
+       
+        <br>
+<br>        <label>Date of Birth <input type="date" required></label>
         
+    <br><br>
+    <label>Male<input type="radio" name="gender" value="Male"  ></label>
+    <label>Female<input type="radio" name="gender"value="Female" ></label>
+    <label>Other category<input type="radio" name="gender" value="Other" ></label><br> 
+    <br>
+        <label>Accept all the Details<input type="checkbox" required></label>
+        <br><br>
+        <label>SUBMIT <input type="submit"></label>
+     </div>
+    </form>
+
 
 </body>
 </html>
