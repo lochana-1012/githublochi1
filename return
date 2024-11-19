@@ -1,0 +1,12 @@
+[1mdiff --git a/company/register.html b/company/register.html[m
+[1mindex e571765..e5fd7e0 100644[m
+[1m--- a/company/register.html[m
+[1m+++ b/company/register.html[m
+[36m@@ -19,6 +19,7 @@[m
+ [m
+     <label>Date of Birth  <br> <input type="date" >[m
+ <br>[m
+[32m+[m[32m    <label>Country <input type="datetime-local"> </label>[m
+     <label>Male<input type="radio" name="gender" value="Male"  ></label>[m
+     <label>Female<input type="radio" name="gender"value="Female" ></label>[m
+     <label>Other category<input type="radio" name="gender" value="Other" ></label><br> [m
